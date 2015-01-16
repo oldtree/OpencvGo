@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DC07A731A6960BB0013C871 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC07A721A6960BB0013C871 /* AppDelegate.swift */; };
+		9DC07A761A6960BB0013C871 /* OpencvGo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DC07A741A6960BB0013C871 /* OpencvGo.xcdatamodeld */; };
+		9DC07A781A6960BB0013C871 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC07A771A6960BB0013C871 /* ViewController.swift */; };
+		9DC07A7B1A6960BB0013C871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC07A791A6960BB0013C871 /* Main.storyboard */; };
+		9DC07A7D1A6960BB0013C871 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC07A7C1A6960BB0013C871 /* Images.xcassets */; };
+		9DC07A801A6960BB0013C871 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DC07A7E1A6960BB0013C871 /* LaunchScreen.xib */; };
+		9DC07A8C1A6960BB0013C871 /* OpencvGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC07A8B1A6960BB0013C871 /* OpencvGoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DC07A861A6960BB0013C871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DC07A651A6960BB0013C871 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DC07A6C1A6960BB0013C871;
+			remoteInfo = OpencvGo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DC07A6D1A6960BB0013C871 /* OpencvGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpencvGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC07A711A6960BB0013C871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC07A721A6960BB0013C871 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DC07A751A6960BB0013C871 /* OpencvGo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OpencvGo.xcdatamodel; sourceTree = "<group>"; };
+		9DC07A771A6960BB0013C871 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DC07A7A1A6960BB0013C871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DC07A7C1A6960BB0013C871 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9DC07A7F1A6960BB0013C871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9DC07A851A6960BB0013C871 /* OpencvGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpencvGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC07A8A1A6960BB0013C871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC07A8B1A6960BB0013C871 /* OpencvGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpencvGoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DC07A6A1A6960BB0013C871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC07A821A6960BB0013C871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DC07A641A6960BB0013C871 = {
+			isa = PBXGroup;
+			children = (
+				9DC07A6F1A6960BB0013C871 /* OpencvGo */,
+				9DC07A881A6960BB0013C871 /* OpencvGoTests */,
+				9DC07A6E1A6960BB0013C871 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DC07A6E1A6960BB0013C871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DC07A6D1A6960BB0013C871 /* OpencvGo.app */,
+				9DC07A851A6960BB0013C871 /* OpencvGoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DC07A6F1A6960BB0013C871 /* OpencvGo */ = {
+			isa = PBXGroup;
+			children = (
+				9DC07A721A6960BB0013C871 /* AppDelegate.swift */,
+				9DC07A771A6960BB0013C871 /* ViewController.swift */,
+				9DC07A791A6960BB0013C871 /* Main.storyboard */,
+				9DC07A7C1A6960BB0013C871 /* Images.xcassets */,
+				9DC07A7E1A6960BB0013C871 /* LaunchScreen.xib */,
+				9DC07A741A6960BB0013C871 /* OpencvGo.xcdatamodeld */,
+				9DC07A701A6960BB0013C871 /* Supporting Files */,
+			);
+			path = OpencvGo;
+			sourceTree = "<group>";
+		};
+		9DC07A701A6960BB0013C871 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DC07A711A6960BB0013C871 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DC07A881A6960BB0013C871 /* OpencvGoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DC07A8B1A6960BB0013C871 /* OpencvGoTests.swift */,
+				9DC07A891A6960BB0013C871 /* Supporting Files */,
+			);
+			path = OpencvGoTests;
+			sourceTree = "<group>";
+		};
+		9DC07A891A6960BB0013C871 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DC07A8A1A6960BB0013C871 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DC07A6C1A6960BB0013C871 /* OpencvGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC07A8F1A6960BB0013C871 /* Build configuration list for PBXNativeTarget "OpencvGo" */;
+			buildPhases = (
+				9DC07A691A6960BB0013C871 /* Sources */,
+				9DC07A6A1A6960BB0013C871 /* Frameworks */,
+				9DC07A6B1A6960BB0013C871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpencvGo;
+			productName = OpencvGo;
+			productReference = 9DC07A6D1A6960BB0013C871 /* OpencvGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DC07A841A6960BB0013C871 /* OpencvGoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC07A921A6960BB0013C871 /* Build configuration list for PBXNativeTarget "OpencvGoTests" */;
+			buildPhases = (
+				9DC07A811A6960BB0013C871 /* Sources */,
+				9DC07A821A6960BB0013C871 /* Frameworks */,
+				9DC07A831A6960BB0013C871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DC07A871A6960BB0013C871 /* PBXTargetDependency */,
+			);
+			name = OpencvGoTests;
+			productName = OpencvGoTests;
+			productReference = 9DC07A851A6960BB0013C871 /* OpencvGoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DC07A651A6960BB0013C871 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Grapestree;
+				TargetAttributes = {
+					9DC07A6C1A6960BB0013C871 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					9DC07A841A6960BB0013C871 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 9DC07A6C1A6960BB0013C871;
+					};
+				};
+			};
+			buildConfigurationList = 9DC07A681A6960BB0013C871 /* Build configuration list for PBXProject "OpencvGo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DC07A641A6960BB0013C871;
+			productRefGroup = 9DC07A6E1A6960BB0013C871 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DC07A6C1A6960BB0013C871 /* OpencvGo */,
+				9DC07A841A6960BB0013C871 /* OpencvGoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DC07A6B1A6960BB0013C871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC07A7B1A6960BB0013C871 /* Main.storyboard in Resources */,
+				9DC07A801A6960BB0013C871 /* LaunchScreen.xib in Resources */,
+				9DC07A7D1A6960BB0013C871 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC07A831A6960BB0013C871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DC07A691A6960BB0013C871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC07A781A6960BB0013C871 /* ViewController.swift in Sources */,
+				9DC07A761A6960BB0013C871 /* OpencvGo.xcdatamodeld in Sources */,
+				9DC07A731A6960BB0013C871 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC07A811A6960BB0013C871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC07A8C1A6960BB0013C871 /* OpencvGoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DC07A871A6960BB0013C871 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DC07A6C1A6960BB0013C871 /* OpencvGo */;
+			targetProxy = 9DC07A861A6960BB0013C871 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DC07A791A6960BB0013C871 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DC07A7A1A6960BB0013C871 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DC07A7E1A6960BB0013C871 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DC07A7F1A6960BB0013C871 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DC07A8D1A6960BB0013C871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DC07A8E1A6960BB0013C871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DC07A901A6960BB0013C871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OpencvGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9DC07A911A6960BB0013C871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OpencvGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9DC07A931A6960BB0013C871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OpencvGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpencvGo.app/OpencvGo";
+			};
+			name = Debug;
+		};
+		9DC07A941A6960BB0013C871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OpencvGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpencvGo.app/OpencvGo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DC07A681A6960BB0013C871 /* Build configuration list for PBXProject "OpencvGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC07A8D1A6960BB0013C871 /* Debug */,
+				9DC07A8E1A6960BB0013C871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC07A8F1A6960BB0013C871 /* Build configuration list for PBXNativeTarget "OpencvGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC07A901A6960BB0013C871 /* Debug */,
+				9DC07A911A6960BB0013C871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9DC07A921A6960BB0013C871 /* Build configuration list for PBXNativeTarget "OpencvGoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC07A931A6960BB0013C871 /* Debug */,
+				9DC07A941A6960BB0013C871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9DC07A741A6960BB0013C871 /* OpencvGo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9DC07A751A6960BB0013C871 /* OpencvGo.xcdatamodel */,
+			);
+			currentVersion = 9DC07A751A6960BB0013C871 /* OpencvGo.xcdatamodel */;
+			path = OpencvGo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9DC07A651A6960BB0013C871 /* Project object */;
+}
