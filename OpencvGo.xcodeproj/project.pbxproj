@@ -14,6 +14,13 @@
 		9DC07A7D1A6960BB0013C871 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC07A7C1A6960BB0013C871 /* Images.xcassets */; };
 		9DC07A801A6960BB0013C871 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DC07A7E1A6960BB0013C871 /* LaunchScreen.xib */; };
 		9DC07A8C1A6960BB0013C871 /* OpencvGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC07A8B1A6960BB0013C871 /* OpencvGoTests.swift */; };
+		9DC07A961A6961210013C871 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC07A951A6961210013C871 /* opencv2.framework */; };
+		9DC07A9B1A6962D80013C871 /* opencvGo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DC07A9A1A6962D80013C871 /* opencvGo.mm */; };
+		9DC07A9D1A6964010013C871 /* nn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DC07A9C1A6964010013C871 /* nn.jpg */; };
+		9DC07AA11A6A00630013C871 /* haarcascade_frontalface_alt.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9DC07A9E1A6A00630013C871 /* haarcascade_frontalface_alt.xml */; };
+		9DC07AA21A6A00630013C871 /* haarcascade_frontalface_alt2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9DC07A9F1A6A00630013C871 /* haarcascade_frontalface_alt2.xml */; };
+		9DC07AA31A6A00630013C871 /* lena.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DC07AA01A6A00630013C871 /* lena.png */; };
+		9DC07AA51A6A02C50013C871 /* ImageProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC07AA41A6A02C40013C871 /* ImageProcess.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +45,14 @@
 		9DC07A851A6960BB0013C871 /* OpencvGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpencvGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DC07A8A1A6960BB0013C871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DC07A8B1A6960BB0013C871 /* OpencvGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpencvGoTests.swift; sourceTree = "<group>"; };
+		9DC07A951A6961210013C871 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../opencv2.framework; sourceTree = "<group>"; };
+		9DC07A971A69615C0013C871 /* OpencvGo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpencvGo-Bridging-Header.h"; sourceTree = "<group>"; };
+		9DC07A9A1A6962D80013C871 /* opencvGo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = opencvGo.mm; sourceTree = "<group>"; };
+		9DC07A9C1A6964010013C871 /* nn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nn.jpg; path = ../../../nn.jpg; sourceTree = "<group>"; };
+		9DC07A9E1A6A00630013C871 /* haarcascade_frontalface_alt.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt.xml; sourceTree = "<group>"; };
+		9DC07A9F1A6A00630013C871 /* haarcascade_frontalface_alt2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt2.xml; sourceTree = "<group>"; };
+		9DC07AA01A6A00630013C871 /* lena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lena.png; sourceTree = "<group>"; };
+		9DC07AA41A6A02C40013C871 /* ImageProcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageProcess.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DC07A961A6961210013C871 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +77,7 @@
 		9DC07A641A6960BB0013C871 = {
 			isa = PBXGroup;
 			children = (
+				9DC07A951A6961210013C871 /* opencv2.framework */,
 				9DC07A6F1A6960BB0013C871 /* OpencvGo */,
 				9DC07A881A6960BB0013C871 /* OpencvGoTests */,
 				9DC07A6E1A6960BB0013C871 /* Products */,
@@ -79,6 +96,11 @@
 		9DC07A6F1A6960BB0013C871 /* OpencvGo */ = {
 			isa = PBXGroup;
 			children = (
+				9DC07A9E1A6A00630013C871 /* haarcascade_frontalface_alt.xml */,
+				9DC07A9F1A6A00630013C871 /* haarcascade_frontalface_alt2.xml */,
+				9DC07AA01A6A00630013C871 /* lena.png */,
+				9DC07A9C1A6964010013C871 /* nn.jpg */,
+				9DC07A9A1A6962D80013C871 /* opencvGo.mm */,
 				9DC07A721A6960BB0013C871 /* AppDelegate.swift */,
 				9DC07A771A6960BB0013C871 /* ViewController.swift */,
 				9DC07A791A6960BB0013C871 /* Main.storyboard */,
@@ -86,6 +108,8 @@
 				9DC07A7E1A6960BB0013C871 /* LaunchScreen.xib */,
 				9DC07A741A6960BB0013C871 /* OpencvGo.xcdatamodeld */,
 				9DC07A701A6960BB0013C871 /* Supporting Files */,
+				9DC07A971A69615C0013C871 /* OpencvGo-Bridging-Header.h */,
+				9DC07AA41A6A02C40013C871 /* ImageProcess.swift */,
 			);
 			path = OpencvGo;
 			sourceTree = "<group>";
@@ -195,8 +219,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DC07AA21A6A00630013C871 /* haarcascade_frontalface_alt2.xml in Resources */,
+				9DC07AA11A6A00630013C871 /* haarcascade_frontalface_alt.xml in Resources */,
 				9DC07A7B1A6960BB0013C871 /* Main.storyboard in Resources */,
+				9DC07A9D1A6964010013C871 /* nn.jpg in Resources */,
 				9DC07A801A6960BB0013C871 /* LaunchScreen.xib in Resources */,
+				9DC07AA31A6A00630013C871 /* lena.png in Resources */,
 				9DC07A7D1A6960BB0013C871 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,8 +243,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DC07A9B1A6962D80013C871 /* opencvGo.mm in Sources */,
 				9DC07A781A6960BB0013C871 /* ViewController.swift in Sources */,
 				9DC07A761A6960BB0013C871 /* OpencvGo.xcdatamodeld in Sources */,
+				9DC07AA51A6A02C50013C871 /* ImageProcess.swift in Sources */,
 				9DC07A731A6960BB0013C871 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,9 +370,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/a123/Desktop,
+				);
 				INFOPLIST_FILE = OpencvGo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpencvGo/OpencvGo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +387,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/a123/Desktop,
+				);
 				INFOPLIST_FILE = OpencvGo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpencvGo/OpencvGo-Bridging-Header.h";
 			};
 			name = Release;
 		};
