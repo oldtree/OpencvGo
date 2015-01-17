@@ -13,6 +13,6 @@
 + (UIImage *)BinnaryImage:(UIImage *)image;
 + (UIImage *)ListImage:(UIImage *)image;
 
-+ (UIImage *)FaceDetectiveImage;
++ (UIImage *)FaceDetectiveImage:(UIImage *)target;
 
 @end

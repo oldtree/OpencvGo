@@ -11,7 +11,7 @@
 #import "OpencvGo-Bridging-Header.h"
 #import <opencv2/opencv.hpp>
 #import <opencv2/imgcodecs/ios.h>
-
+#import "ImageProcess.swift"
 
 @implementation OpenCV2 : NSObject
 + (UIImage *)BlurImage:(UIImage *)image {
@@ -56,7 +56,7 @@
     return retImg ;
 }
 
-+ (UIImage *)FaceDetectiveImage{
++ (UIImage *)FaceDetectiveImage:(UIImage *)target{
     cv::CascadeClassifier faceDetector;
     NSString* cascadePath = [[NSBundle mainBundle]
                              pathForResource:@"haarcascade_frontalface_alt"
@@ -77,10 +77,24 @@
     faceDetector.detectMultiScale(gray, faces, 1.1,
                                   2, 0|cv::CASCADE_SCALE_IMAGE, cv::Size(30, 30));
     
+    
+    for(unsigned int i = 0; i < faces.size(); i++)
+    {
+        const cv::Rect& face = faces[i];
+        CGRect temp;
+        temp.size.width = face.width;
+        temp.size.height = face.height;
+        
+        temp.origin.x = face.x;
+        temp.origin.y = face.y;
+        target?: Log()
+    }
+    
     // Draw all detected faces
     for(unsigned int i = 0; i < faces.size(); i++)
     {
         const cv::Rect& face = faces[i];
+        
         // Get top-left and bottom-right corner points
         cv::Point tl(face.x, face.y);
         cv::Point br = tl + cv::Point(face.width, face.height);
