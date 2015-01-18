@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nn.jpg" highlightedImage="nn.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Dl7-Jt-HpE">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nn.jpg" highlightedImage="nn.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Dl7-Jt-HpE" customClass="UIImageViewWithOperation" customModule="OpencvGo" customModuleProvider="target">
                                 <rect key="frame" x="70" y="10" width="460" height="580"/>
                             </imageView>
                         </subviews>
@@ -30,7 +30,7 @@
                     </view>
                     <value key="contentSizeForViewInPopover" type="size" width="480" height="600"/>
                     <connections>
-                        <outlet property="image" destination="Dl7-Jt-HpE" id="lzR-y5-XiG"/>
+                        <outlet property="imgView" destination="Dl7-Jt-HpE" id="Kq0-jX-Jhm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

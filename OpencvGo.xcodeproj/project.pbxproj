@@ -21,6 +21,7 @@
 		9DC07AA21A6A00630013C871 /* haarcascade_frontalface_alt2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9DC07A9F1A6A00630013C871 /* haarcascade_frontalface_alt2.xml */; };
 		9DC07AA31A6A00630013C871 /* lena.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DC07AA01A6A00630013C871 /* lena.png */; };
 		9DC07AA51A6A02C50013C871 /* ImageProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC07AA41A6A02C40013C871 /* ImageProcess.swift */; };
+		9DC07AA71A6B59A00013C871 /* ImageViewWithOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC07AA61A6B59A00013C871 /* ImageViewWithOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		9DC07A9F1A6A00630013C871 /* haarcascade_frontalface_alt2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt2.xml; sourceTree = "<group>"; };
 		9DC07AA01A6A00630013C871 /* lena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lena.png; sourceTree = "<group>"; };
 		9DC07AA41A6A02C40013C871 /* ImageProcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageProcess.swift; sourceTree = "<group>"; };
+		9DC07AA61A6B59A00013C871 /* ImageViewWithOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewWithOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				9DC07A701A6960BB0013C871 /* Supporting Files */,
 				9DC07A971A69615C0013C871 /* OpencvGo-Bridging-Header.h */,
 				9DC07AA41A6A02C40013C871 /* ImageProcess.swift */,
+				9DC07AA61A6B59A00013C871 /* ImageViewWithOperation.swift */,
 			);
 			path = OpencvGo;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DC07AA71A6B59A00013C871 /* ImageViewWithOperation.swift in Sources */,
 				9DC07A9B1A6962D80013C871 /* opencvGo.mm in Sources */,
 				9DC07A781A6960BB0013C871 /* ViewController.swift in Sources */,
 				9DC07A761A6960BB0013C871 /* OpencvGo.xcdatamodeld in Sources */,

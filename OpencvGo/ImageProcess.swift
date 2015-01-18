@@ -23,6 +23,7 @@ class UIImageWithOperation: UIImage {
     var height:Int?
     var waringlength:Int?
     
+    
     override init() {
         super.init()
         self.targetlist = NSMutableArray()

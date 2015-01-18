@@ -10,7 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var image: UIImageView!
+    @IBOutlet weak var imgView: UIImageView!
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //var img = image?.image
@@ -23,6 +25,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         var tt = UIImageWithOperation()
         tt.GetTargetList()
+        
     }
 
     override func didReceiveMemoryWarning() {
