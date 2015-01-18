@@ -11,7 +11,7 @@
 #import "OpencvGo-Bridging-Header.h"
 #import <opencv2/opencv.hpp>
 #import <opencv2/imgcodecs/ios.h>
-#import "ImageProcess.swift"
+
 
 @implementation OpenCV2 : NSObject
 + (UIImage *)BlurImage:(UIImage *)image {
@@ -53,10 +53,18 @@
     
     
     UIImage *retImg = MatToUIImage(re);
+    
     return retImg ;
 }
 
-+ (UIImage *)FaceDetectiveImage:(UIImage *)target{
++ (BOOL)TestImage:(NSArray*)target{
+    std::cout<<"hello"<<std::endl;
+    
+    return  nil;
+}
+
+
++ (UIImage *)FaceDetectiveImage:(UIImage *)target  array:(NSMutableArray*)array{
     cv::CascadeClassifier faceDetector;
     NSString* cascadePath = [[NSBundle mainBundle]
                              pathForResource:@"haarcascade_frontalface_alt"
@@ -81,13 +89,15 @@
     for(unsigned int i = 0; i < faces.size(); i++)
     {
         const cv::Rect& face = faces[i];
-        CGRect temp;
-        temp.size.width = face.width;
-        temp.size.height = face.height;
-        
-        temp.origin.x = face.x;
-        temp.origin.y = face.y;
-        target?: Log()
+
+        NSNumber *pointx = [NSNumber numberWithInt:face.x];
+        NSNumber *pointy = [NSNumber numberWithInt:face.y];
+        NSNumber *width = [NSNumber numberWithInt:face.width];
+        NSNumber *heigh = [NSNumber numberWithInt:face.height];
+        [array addObject:pointx];
+        [array addObject:pointy];
+        [array addObject:width];
+        [array addObject:heigh];
     }
     
     // Draw all detected faces

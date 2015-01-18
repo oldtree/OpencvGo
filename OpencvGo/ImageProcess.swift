@@ -17,14 +17,40 @@ extension UIImage{
 
 
 class UIImageWithOperation: UIImage {
-    var targetlist : Array<CGRect>?
+    var targetlist : NSMutableArray?
+    var targetRect : Array<CGRect>?
     var width:Int?
     var height:Int?
     var waringlength:Int?
-    required init(coder aDecoder: NSCoder) {
+    
+    override init() {
         super.init()
-        targetlist = Array<CGRect>()
-        
+        self.targetlist = NSMutableArray()
+        self.targetRect = Array<CGRect>()
+    }
+
+    required init(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        self.targetlist = NSMutableArray()
+        self.targetRect = Array<CGRect>()
+    }
+    
+    func GetTargetList(){
+
+        OpenCV2.FaceDetectiveImage(self as UIImage,array: self.targetlist);
+
+        for var i:Int=0 ;i<self.targetlist?.count;i=i+4
+        {
+            var temp = CGRect()
+            temp.origin.x = self.targetlist?.objectAtIndex(i) as CGFloat
+            temp.origin.y = self.targetlist?.objectAtIndex(i+1) as CGFloat
+            temp.size.width = self.targetlist?.objectAtIndex(i+2) as CGFloat
+            temp.size.height = self.targetlist?.objectAtIndex(i+3) as CGFloat
+            println(temp)
+            self.targetRect?.append(temp)
+        }
+        println(self.targetRect?.first?.height)
+        println("self.targetRect count is : \(self.targetRect?.count)")
     }
     
     func SetDisatbleAera(waringlength:Int){
@@ -33,18 +59,16 @@ class UIImageWithOperation: UIImage {
         self.height = self.height! - waringlength*2
     }
     
-    func IsTouchAeraInRect(touchAera :CGRect)->Bool{
+    func IsTouchAeraInRect(touchAera :CGPoint)->Bool{
         
-        if (self.targetlist?.isEmpty != true){
+        if (self.targetRect?.isEmpty != true){
             println("there is no target rect detective")
             return false
         }
         
         for rect in self.targetlist!
         {
-            if (rect.contains(touchAera) == true){
-                return true
-            }
+            
         }
         
         return false
