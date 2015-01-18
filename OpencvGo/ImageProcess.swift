@@ -49,6 +49,7 @@ class UIImageWithOperation: UIImage {
             println(temp)
             self.targetRect?.append(temp)
         }
+        
         println(self.targetRect?.first?.height)
         println("self.targetRect count is : \(self.targetRect?.count)")
     }
@@ -59,25 +60,19 @@ class UIImageWithOperation: UIImage {
         self.height = self.height! - waringlength*2
     }
     
-    func IsTouchAeraInRect(touchAera :CGPoint)->Bool{
+    func IsTouchAeraInRect(touchPoint :CGPoint)->Bool{
         
         if (self.targetRect?.isEmpty != true){
             println("there is no target rect detective")
             return false
         }
         
-        for rect in self.targetlist!
+        for rect in self.targetRect!
         {
             
         }
         
         return false
     }
-    
-    func Is2RectRight()->Bool{
-        
-        return true
-    }
-    
     
 }

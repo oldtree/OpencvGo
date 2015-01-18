@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,18 +17,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="nn.jpg" highlightedImage="nn.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Dl7-Jt-HpE">
-                                <rect key="frame" x="0.0" y="-8" width="600" height="600"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="600" id="ZZz-eT-ntB"/>
-                                    <constraint firstAttribute="width" constant="600" id="fXy-as-ikR"/>
-                                </constraints>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nn.jpg" highlightedImage="nn.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Dl7-Jt-HpE">
+                                <rect key="frame" x="70" y="10" width="460" height="580"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerY" secondItem="Dl7-Jt-HpE" secondAttribute="centerY" id="Ljx-7L-c5n"/>
-                            <constraint firstAttribute="centerX" secondItem="Dl7-Jt-HpE" secondAttribute="centerX" id="TMj-PE-SPu"/>
+                            <constraint firstAttribute="centerX" secondItem="Dl7-Jt-HpE" secondAttribute="centerX" id="3aj-DE-BIM"/>
+                            <constraint firstAttribute="centerY" secondItem="Dl7-Jt-HpE" secondAttribute="centerY" id="GLn-K4-PsY"/>
+                            <constraint firstItem="Dl7-Jt-HpE" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" constant="10" id="lsC-qS-uMp"/>
                         </constraints>
                     </view>
                     <value key="contentSizeForViewInPopover" type="size" width="480" height="600"/>
