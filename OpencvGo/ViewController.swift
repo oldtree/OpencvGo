@@ -23,8 +23,8 @@ class ViewController: UIViewController {
         //println(tl)
         //self.image.image =
         // Do any additional setup after loading the view, typically from a nib.
-        var tt = UIImageWithOperation()
-        tt.GetTargetList()
+        //var tt = UIImageWithOperation()
+        //tt.GetTargetList()
         
     }
 
