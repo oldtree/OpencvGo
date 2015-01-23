@@ -15,11 +15,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //var img = image?.image
+        var img = imgView?.image
         //var blurImagetemp = OpenCV2.BinnaryImage(img);
         //var blurImage = OpenCV2.CannyImage(blurImagetemp);
         //var tl = NSMutableArray()
-        //image?.image = OpenCV2.FaceDetectiveImage(img,array: tl);
+        imgView?.image = OpenCV2.findSquares(img);
         //println(tl)
         //self.image.image =
         // Do any additional setup after loading the view, typically from a nib.

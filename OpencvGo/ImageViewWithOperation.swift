@@ -22,10 +22,11 @@ class UIImageViewWithOperation: UIImageView {
     override init() {
         super.init()
         self.initGesture()
-      
+        
         self.targetlist = NSMutableArray()
         self.FaceRect = Array<CGRect>()
         self.GetTargetList()
+        
     }
     
     required init(coder aDecoder: NSCoder) {
@@ -52,6 +53,7 @@ class UIImageViewWithOperation: UIImageView {
         //var point :CGPoint = self.longTapRec.locationOfTouch(0, inView: self)
         println("---------------------------------")
         println(self.IsTouchAeraInRect(points))
+        //self.drawRect(self.FaceRect?.first!)self.drawRect(self.FaceRect?.first!)
         println("---------------------------------")
     }
 

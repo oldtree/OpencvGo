@@ -13,6 +13,12 @@
 + (UIImage *)BinnaryImage:(UIImage *)image;
 + (UIImage *)ListImage:(UIImage *)image;
 
++ (UIImage *)BoxImage:(UIImage *)image;
+
++ (UIImage *)ColorReduceImage:(UIImage *)image;
+
++ (UIImage *)findSquares:(UIImage *)image;
+
 + (UIImage *)FaceDetectiveImage:(UIImage *)target array:(NSMutableArray *)array;
 
 + (BOOL)TestImage:(NSArray*)target;

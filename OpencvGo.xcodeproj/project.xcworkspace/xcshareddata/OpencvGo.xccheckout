@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>027FA81D-0F83-43A4-ABF4-395D1D9B29CB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OpencvGo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>54FFE34CB0F8BDB31810CBC0EF8EB44E0EFF535B</key>
+		<string>https://github.com/oldtree/OpencvGo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OpencvGo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>54FFE34CB0F8BDB31810CBC0EF8EB44E0EFF535B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/oldtree/OpencvGo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>54FFE34CB0F8BDB31810CBC0EF8EB44E0EFF535B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>54FFE34CB0F8BDB31810CBC0EF8EB44E0EFF535B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OpencvGo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
